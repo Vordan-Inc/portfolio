@@ -2,7 +2,7 @@ import React from 'react'
 import { MainMenu, LogoBox } from "./styled"
 import VordanLogo from "../../assets/vordan-logo.png"
 const Header = () => {
-  MENU_LINKS = [
+  const MENU_LINKS = [
     {
       name: "Home",
       icon: "",
