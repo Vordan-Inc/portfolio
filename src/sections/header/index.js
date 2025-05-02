@@ -41,7 +41,7 @@ const Header = () => {
                 <SecondaryMenu scrolled={scrolled}>
                     <Location>
                         <MapPin size={21} />
-                        <span>Yerevan, Armenia</span>
+                        <span>{t('location')}</span>
                     </Location>
                     <Nav>
                         <Toggler onClick={() => changeLanguage("en")}>
