@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e6747326.css",
-    "main.js": "/portfolio/static/js/main.e3120efa.js",
+    "main.js": "/portfolio/static/js/main.97dc1e86.js",
     "static/media/vordan-logo.svg": "/portfolio/static/media/vordan-logo.b7003a51b687ce9396ed1065a9d0377f.svg",
     "static/media/vordan-logo-dark.svg": "/portfolio/static/media/vordan-logo-dark.0042ec11240e480e88b1145660893212.svg",
     "static/media/inter-latin-ext-600-normal.woff": "/portfolio/static/media/inter-latin-ext-600-normal.0acb54c755dec53de476.woff",
@@ -51,10 +51,10 @@
     "static/media/am.svg": "/portfolio/static/media/am.a196afb3e49af3020f5ade11187bd4d1.svg",
     "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.e6747326.css.map": "/portfolio/static/css/main.e6747326.css.map",
-    "main.e3120efa.js.map": "/portfolio/static/js/main.e3120efa.js.map"
+    "main.97dc1e86.js.map": "/portfolio/static/js/main.97dc1e86.js.map"
   },
   "entrypoints": [
     "static/css/main.e6747326.css",
-    "static/js/main.e3120efa.js"
+    "static/js/main.97dc1e86.js"
   ]
 }
