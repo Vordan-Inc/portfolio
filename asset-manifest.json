@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.868a286b.js",
+    "main.css": "/portfolio/static/css/main.367c5933.css",
+    "main.js": "/portfolio/static/js/main.ada5bafe.js",
+    "static/media/vordan-logo.png": "/portfolio/static/media/vordan-logo.d4f85dd21b00c30f774d.png",
     "index.html": "/portfolio/index.html",
-    "main.868a286b.js.map": "/portfolio/static/js/main.868a286b.js.map"
+    "main.367c5933.css.map": "/portfolio/static/css/main.367c5933.css.map",
+    "main.ada5bafe.js.map": "/portfolio/static/js/main.ada5bafe.js.map"
   },
   "entrypoints": [
-    "static/js/main.868a286b.js"
+    "static/css/main.367c5933.css",
+    "static/js/main.ada5bafe.js"
   ]
 }
