@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e6747326.css",
-    "main.js": "/portfolio/static/js/main.a1dfa887.js",
+    "main.js": "/portfolio/static/js/main.4290444e.js",
     "static/media/vordan-logo.svg": "/portfolio/static/media/vordan-logo.b7003a51b687ce9396ed1065a9d0377f.svg",
     "static/media/vordan-logo-dark.svg": "/portfolio/static/media/vordan-logo-dark.0042ec11240e480e88b1145660893212.svg",
     "static/media/header_picture-Photoroom.png": "/portfolio/static/media/header_picture-Photoroom.f4c2fd36f5223aa8f517.png",
@@ -50,10 +50,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.e6747326.css.map": "/portfolio/static/css/main.e6747326.css.map",
-    "main.a1dfa887.js.map": "/portfolio/static/js/main.a1dfa887.js.map"
+    "main.4290444e.js.map": "/portfolio/static/js/main.4290444e.js.map"
   },
   "entrypoints": [
     "static/css/main.e6747326.css",
-    "static/js/main.a1dfa887.js"
+    "static/js/main.4290444e.js"
   ]
 }
