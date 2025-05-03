@@ -39,8 +39,8 @@ export const ThemeProvider = ({ children }) => {
         query: "(min-width: 180px) and (max-width: 767px)",
     });
 
-    const isLaptop = useMediaQuery({
-        query: "(min-width: 768px) and (max-width: 1366px)",
+    const isTablet = useMediaQuery({
+        query: "(min-width: 768px) and (max-width: 900px)",
     });
 
     const isLight = theme === "light";
@@ -53,7 +53,7 @@ export const ThemeProvider = ({ children }) => {
                 toggleTheme,
                 isLight,
                 isMobile,
-                isLaptop,
+                isTablet,
                 language,
                 changeLanguage,
             }}

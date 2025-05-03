@@ -1,4 +1,10 @@
 {
     "welcome": "hi",
-    "location": "Yerevan, Armenia"
+    "location": "Yerevan, Armenia",
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "services": "Services",
+    "projects": "Projects"
+
 }

@@ -1,37 +1,26 @@
 import styled from "styled-components";
-
 export const Menu = styled.div`
     width: 100%;
     display: block;
     border-bottom: 1px solid ${({ theme }) => theme.border};
     position: fixed;
-`;
-
-export const MainMenu = styled.div`
-    height: 56px;
-    background: ${({ theme }) => theme.body};
-    padding: 5px 20px;
-    display: flex;
-    justify-content: space-between;
-`;
-
-export const LogoBox = styled.div`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
 `;
 
 export const SecondaryMenu = styled.div`
     background: ${({ theme }) => theme.body};
-    padding: ${({ scrolled }) => (scrolled ? "0 20px": "5px 20px")};
+    padding: ${({ scrolled }) => (scrolled ? "0" : "5px 0")};
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    overflow: hidden;
-    height: ${({ scrolled }) => (scrolled ? "0": "40px")};
+    /* overflow: hidden; */
+    font-size: 14px;
+    height: ${({ scrolled }) => (scrolled ? "0" : "40px")};
     > * {
-        transform: translateY( ${({ scrolled }) => (scrolled ? "-200%" : 0)});
+        transform: translateY(${({ scrolled }) => (scrolled ? "-200%" : 0)});
     }
 `;
 
@@ -40,10 +29,6 @@ export const Location = styled.div`
     align-items: center;
     gap: 3px;
     color: ${({ theme }) => theme.secondary};
-    span {
-        font-size: 13px;
-        font-weight: 400;
-    }
 `;
 
 export const Nav = styled.div`
@@ -61,12 +46,133 @@ export const Toggler = styled.div`
     justify-content: center;
     align-items: center;
     gap: 3px;
-    font-size: 13px;
     border-radius: 12px;
     box-shadow: ${({ theme }) => theme.box_shadow};
 
     &:hover {
         box-shadow: ${({ theme }) => theme.box_shadow_hover};
         color: ${({ theme }) => theme.text};
+    }
+
+    > img {
+        width: 20px;
+        height: 20px;
+    }
+`;
+export const MainMenu = styled.div`
+    height: 65px;
+    background: ${({ theme }) => theme.body};
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > div {
+        gap: 25px;
+    }
+    > .logo-box {
+        gap: 5px;
+        transition: 0.3s ease;
+    }
+`;
+
+export const LogoBox = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        height: 100%;
+    }
+`;
+
+export const MenuLink = styled.div`
+    color: ${({ theme }) => theme.text};
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+    span {
+        position: absolute;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: #f5222d;
+        bottom: 5px;
+        transform: translateX(-101%);
+        transition: transform 0.3s ease;
+    }
+    &:hover {
+        span {
+            transform: translateX(0);
+        }
+    }
+`;
+
+export const MenuButton = styled.div`
+    padding: 10px 20px;
+    background: #f5222d;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+        background: #cf1322;
+    }
+`;
+
+export const Burger = styled.div`
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    background: ${({ isOpen, theme }) => isOpen ? theme.button_bg_hover : "transparent"};
+
+
+    &:hover {
+        background: ${({ theme }) => theme.button_bg_hover};
+    }
+`;
+
+export const DropDownMenu = styled.div`
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 10px;
+    min-width: 220px;
+    background: ${({ theme }) => theme.body};
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: ${({ theme }) => theme.box_shadow};
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px !important;
+    transform: translateX(${({ isOpen }) => (!isOpen ? "-200%" : "0")});
+
+    div {
+        padding: 10px 10px;
+        display: block;
+        border-radius: 10px;
+        &:hover {
+            background: ${({ theme }) => theme.button_bg_hover};
+        }
     }
 `;
