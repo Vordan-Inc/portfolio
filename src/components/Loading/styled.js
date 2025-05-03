@@ -26,10 +26,10 @@ export const Ring = styled.div`
   width: 64px;
   height: 64px;
   margin: 8px;
-  border: #000;
+  border: 1px solid red;
   border-radius: 50%;
   animation: ${rotate} 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: ${({ theme }) => theme.text || "#000"} transparent transparent transparent;
+  border-color: red;
 
   &:nth-child(1) {
     animation-delay: -0.45s;
