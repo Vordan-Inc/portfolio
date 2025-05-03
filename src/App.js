@@ -10,7 +10,7 @@ function App() {
       // Minimum 1 second loader on initial page load
       const timer = setTimeout(() => {
         setLoading(false);
-      }, 2000);
+      }, 1000);
   
       return () => clearTimeout(timer); // cleanup
     }, []);
