@@ -151,7 +151,7 @@ export const MainSectionBlock = styled.div`
                 width: 100%;
             }
             &:nth-child(2) {
-                bottom: -5%;
+                bottom: 0;
             }
         }
 
