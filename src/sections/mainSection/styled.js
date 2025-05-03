@@ -106,7 +106,7 @@ export const MainSectionBlock = styled.div`
         align-items: center;
         div {
             &:nth-child(1) {
-                margin-bottom: 200px;
+                margin-bottom: 10dvh;
                 padding: 10px 15px 30px;
                 width: 70%;
                 position: relative;
