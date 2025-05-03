@@ -103,10 +103,10 @@ export const MainSectionBlock = styled.div`
             font-size: 18px;
         }
         position: relative;
-        align-items: center;
+        align-items: flex-start;
         div {
             &:nth-child(1) {
-                margin-bottom: 10dvh;
+                margin-top: 5dvh;
                 padding: 10px 15px 30px;
                 width: 70%;
                 position: relative;
