@@ -1,16 +1,19 @@
 import styled from "styled-components";
+
 export const Menu = styled.div`
     width: 100%;
     display: block;
     border-bottom: 1px solid ${({ theme }) => theme.border};
     position: fixed;
+    z-index: 100;
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none;
+    background: ${({ theme }) => theme.bg};
+    box-shadow: ${({ theme }) => theme.box_shadow};
 `;
 
 export const SecondaryMenu = styled.div`
-    background: ${({ theme }) => theme.body};
     padding: ${({ scrolled }) => (scrolled ? "0" : "5px 0")};
     display: flex;
     justify-content: space-between;
@@ -60,14 +63,13 @@ export const Toggler = styled.div`
     }
 `;
 export const MainMenu = styled.div`
-    height: 65px;
-    background: ${({ theme }) => theme.body};
+    height: 75px;
     padding: 5px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     > div {
-        gap: 25px;
+        gap: 50px;
     }
     > .logo-box {
         gap: 5px;
@@ -81,7 +83,7 @@ export const LogoBox = styled.div`
     align-items: center;
 
     img {
-        height: 100%;
+        width: 150px;
     }
 `;
 
@@ -91,7 +93,7 @@ export const MenuLink = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 17px;
+    font-size: 18px;
     text-transform: capitalize;
     position: relative;
     overflow: hidden;
@@ -124,7 +126,7 @@ export const MenuButton = styled.div`
     justify-content: center;
     align-items: center;
     height: fit-content;
-    font-size: 17px;
+    font-size: 18px;
     text-transform: capitalize;
     cursor: pointer;
     font-weight: 600;
@@ -156,7 +158,7 @@ export const DropDownMenu = styled.div`
     top: calc(100% + 5px);
     left: 10px;
     min-width: 220px;
-    background: ${({ theme }) => theme.body};
+    background: ${({ theme }) => theme.bg};
     padding: 10px;
     border-radius: 10px;
     box-shadow: ${({ theme }) => theme.box_shadow};
