@@ -148,6 +148,7 @@ export const MainSectionBlock = styled.div`
         }
         div {
             &:nth-child(1) {
+                margin-top: 0;
                 width: 100%;
             }
             &:nth-child(2) {
