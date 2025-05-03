@@ -3,6 +3,9 @@ import Header from "./sections/header";
 import MainSection from "./sections/mainSection";
 // import { Suspense } from "react";
 import React, { useEffect, useState } from 'react';
+import ServicesSection from "./sections/servicesSection";
+
+
 function App() {
     const [loading, setLoading] = useState(true);
 
@@ -23,6 +26,7 @@ function App() {
         <div className="App">
             <Header />
             <MainSection />
+            <ServicesSection />
         </div>
     );
 }

@@ -87,7 +87,7 @@ export const LogoBox = styled.div`
     }
 `;
 
-export const MenuLink = styled.div`
+export const MenuLink = styled.a`
     color: ${({ theme }) => theme.text};
     cursor: pointer;
     display: flex;
@@ -98,6 +98,7 @@ export const MenuLink = styled.div`
     position: relative;
     overflow: hidden;
     transition: all 0.3s ease;
+    text-decoration: none;
 
     span {
         position: absolute;
@@ -169,7 +170,7 @@ export const DropDownMenu = styled.div`
     gap: 5px !important;
     transform: translateX(${({ isOpen }) => (!isOpen ? "-200%" : "0")});
 
-    div {
+    a {
         padding: 10px 10px;
         display: block;
         border-radius: 10px;

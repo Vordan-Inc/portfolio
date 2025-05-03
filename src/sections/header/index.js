@@ -61,10 +61,11 @@ const Header = () => {
     }, [isOpen, setIsOpen]);
 
     const MENULINKS = [
-        { name: t("home"), url: "/" },
-        { name: t("about"), url: "/about" },
-        { name: t("services"), url: "/services" },
-        { name: t("projects"), url: "/projects" },
+        { name: t("home"), url: "#home" },
+        { name: t("services"), url: "#services" },
+        { name: t("projects"), url: "#projects" },
+        { name: t("about"), url: "#about" },
+
         //{ name: t("contact"), link: "/contact" },
     ];
 
@@ -108,7 +109,7 @@ const Header = () => {
                     {(isTablet || isMobile) && (
                         <DropDownMenu isOpen={isOpen} ref={navRef}>
                             {MENULINKS.map((link, index) => (
-                                <MenuLink key={index} onClick={() => setIsOpen(false)}>{link.name}</MenuLink>
+                                <MenuLink key={index} onClick={() => setIsOpen(false)} href={link.url}>{link.name}</MenuLink>
                             ))}
                             <MenuLink  onClick={() => setIsOpen(false)}>{t("contact")}</MenuLink>
                         </DropDownMenu>
@@ -117,7 +118,7 @@ const Header = () => {
                     
                         <Nav>
                             {!(isTablet || isMobile) && MENULINKS.map((link, index) => (
-                                <MenuLink key={index}>
+                                <MenuLink key={index} href={link.url}>
                                     {link.name}
                                     <span></span>
                                 </MenuLink>

@@ -1,6 +1,12 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
   body {
     background: ${({ theme }) => theme.bg};
     color: ${({ theme }) => theme.text};
@@ -10,11 +16,19 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Inter', sans-serif;
     height: 5500px;
     overflow-x: hidden;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 
   div {
     box-sizing: border-box;
     transition: all 0.3s ease;
+  }
+
+  .section-header {
+    color: ${({ theme }) => theme.text};
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
   }
 `;

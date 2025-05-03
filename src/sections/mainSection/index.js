@@ -9,7 +9,7 @@ const MainSection = () => {
     const { t } = useTranslation();
     return (
         <Container>
-            <MainSectionBlock>
+            <MainSectionBlock id="home">
                 <div>
                     <h1>{t("main-header")}</h1>
 
@@ -18,7 +18,7 @@ const MainSection = () => {
                     <p>{t("main-sub-header-2")}</p>
 
                     <a href="#services" className="btn">
-                        <span>{t("main-btn")}</span>
+                        <span>{t("our-services")}</span>
                     </a>
                 </div>
                 <div>
