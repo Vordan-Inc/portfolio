@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e6747326.css",
-    "main.js": "/portfolio/static/js/main.e0e0a76a.js",
+    "main.js": "/portfolio/static/js/main.ef2a4ae9.js",
     "static/media/vordan-logo.svg": "/portfolio/static/media/vordan-logo.b7003a51b687ce9396ed1065a9d0377f.svg",
     "static/media/vordan-logo-dark.svg": "/portfolio/static/media/vordan-logo-dark.0042ec11240e480e88b1145660893212.svg",
     "static/media/header_picture-Photoroom.png": "/portfolio/static/media/header_picture-Photoroom.f4c2fd36f5223aa8f517.png",
     "static/media/inter-latin-ext-600-normal.woff": "/portfolio/static/media/inter-latin-ext-600-normal.0acb54c755dec53de476.woff",
     "static/media/inter-latin-ext-500-normal.woff": "/portfolio/static/media/inter-latin-ext-500-normal.2b8be079a0e965b2f035.woff",
     "static/media/inter-latin-ext-400-normal.woff": "/portfolio/static/media/inter-latin-ext-400-normal.1c20f7dc20d731a18fcd.woff",
+    "static/media/rocket.png": "/portfolio/static/media/rocket.7cda4a4d5fe0cf292ea7.png",
     "static/media/inter-latin-ext-600-normal.woff2": "/portfolio/static/media/inter-latin-ext-600-normal.ae5f9691ebe48c908e8c.woff2",
     "static/media/inter-latin-600-normal.woff": "/portfolio/static/media/inter-latin-600-normal.28c8f6060760ec1a5d25.woff",
     "static/media/inter-latin-500-normal.woff": "/portfolio/static/media/inter-latin-500-normal.f46567788e464ac34d10.woff",
@@ -50,10 +51,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.e6747326.css.map": "/portfolio/static/css/main.e6747326.css.map",
-    "main.e0e0a76a.js.map": "/portfolio/static/js/main.e0e0a76a.js.map"
+    "main.ef2a4ae9.js.map": "/portfolio/static/js/main.ef2a4ae9.js.map"
   },
   "entrypoints": [
     "static/css/main.e6747326.css",
-    "static/js/main.e0e0a76a.js"
+    "static/js/main.ef2a4ae9.js"
   ]
 }
