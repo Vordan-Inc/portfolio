@@ -30,7 +30,7 @@ export const AboutBox = styled.div`
     > img {
         transition: 0.3s ease;
         height: 500px;
-        transform: rotate(-90deg) scale(2.5) translateY(10%);
+        transform: rotate(-90deg) scale(2) translateY(5%);
     }
 
     @media only screen and (max-width: 1280px) {
