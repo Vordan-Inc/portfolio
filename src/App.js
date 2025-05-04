@@ -5,6 +5,7 @@ import MainSection from "./sections/mainSection";
 import React, { useEffect, useState } from 'react';
 import ServicesSection from "./sections/servicesSection";
 import ProjectsSection from "./sections/projectsSection";
+import AboutSection from "./sections/about";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <MainSection />
             <ServicesSection />
             <ProjectsSection />
+            <AboutSection />
         </div>
     );
 }

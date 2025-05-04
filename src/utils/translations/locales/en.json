@@ -66,5 +66,19 @@
             "point3": "Will include Artificial Intelligence (AI) to boost transaction volumes and expand seller-buyer relationships.",
             "label": "🚀 Seeking Funding"
         }
+    },
+    "about-info": {
+        "vordanDescription1": "Vordan is a tech-driven startup born out of the need for smarter and more reliable software systems. We are a team of experienced IT professionals focused on developing long-term solutions while maintaining accessibility, reliability, and quality.",
+        "vordanDescription2": "We help businesses automate their operations, streamline workflows, and effectively manage business processes by creating custom software systems. Each system we develop is crafted to solve real, unique problems.",
+        "vordanDescription3": "At Vordan, we believe in creating simple, effective, and sustainable solutions that are directed toward business growth. As a technological partner, we provide solutions that ensure efficient and long-term development for your business.",
+        "technologies": "Technologies we use",
+        "programmingLanguages": "Programming Languages",
+        "languages": "Python / JavaScript / TypeScript / Java / Go / PHP",
+        "frameworks": "Frameworks",
+        "frameworkList": "Django / DRF / Flask / Fast API / Pandas / Node.js / React js / Next js / Spring / Laravel",
+        "git": "Git / GitHub",
+        "databases": "Databases",
+        "dbList": "PostgreSQL / Microsoft SQL Server / MySQL / Redis / SQLite / MongoDB",
+        "rocketAlt": "Rocket Image"
     }
 }

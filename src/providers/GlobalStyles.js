@@ -14,7 +14,6 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    height: 5500px;
     overflow-x: hidden;
   }
 
