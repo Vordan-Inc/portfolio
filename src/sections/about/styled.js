@@ -11,7 +11,6 @@ export const AboutBox = styled.div`
     align-items: center;
     gap: 20px;
     min-height: 60vh;
-    
 
     > div {
         /* background-color: ${({ theme }) => theme.dark_bg}; */
@@ -23,7 +22,8 @@ export const AboutBox = styled.div`
         }
         p {
             font-size: 18px;
-            text-align: justify;
+            word-break: break-word;
+            hyphens: auto;
         }
     }
 
@@ -51,8 +51,7 @@ export const AboutBox = styled.div`
         }
     }
     @media only screen and (max-width: 630px) {
-   
-           > img {
+        > img {
             transition: 0.3s ease;
             height: 300px;
             transform: rotate(-90deg) scale(2) translateY(20%);
