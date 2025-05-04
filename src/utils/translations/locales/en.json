@@ -80,5 +80,29 @@
         "databases": "Databases",
         "dbList": "PostgreSQL / Microsoft SQL Server / MySQL / Redis / SQLite / MongoDB",
         "rocketAlt": "Rocket Image"
+    },
+    "contact-info": {
+        "header": "Contact Us",
+        "intro": "We'd love to hear from you",
+        "detailsTitle": "Contact Details",
+        "locationsTitle": "Our Locations",
+        "emailLabel": "Email",
+        "phoneLabel": "Phone",
+        "workingLabel": "Working Hours",
+        "locations": [
+            {
+                "label": "Yerevan HQ",
+                "address": "Sarmen St, Yerevan, Armenia"
+            },
+            {
+                "label": "Remote Office",
+                "address": "Estonakan St, Երևան, Armenia"
+            }
+        ],
+        "contact": {
+            "email": "vardanyan.it@gmail.com@gmail.com",
+            "phone": "+374 93 398023",
+            "hours": "Mon–Fri, 10:00–18:00"
+        }
     }
 }

@@ -6,6 +6,8 @@ import React, { useEffect, useState } from 'react';
 import ServicesSection from "./sections/servicesSection";
 import ProjectsSection from "./sections/projectsSection";
 import AboutSection from "./sections/about";
+import ContactSection from "./sections/contact";
+import Footer from "./sections/footer";
 
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
             <ServicesSection />
             <ProjectsSection />
             <AboutSection />
+            <ContactSection />
+            <Footer />
         </div>
     );
 }

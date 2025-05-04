@@ -118,7 +118,7 @@ export const MenuLink = styled.a`
     }
 `;
 
-export const MenuButton = styled.div`
+export const MenuButton = styled.a`
     padding: 10px 20px;
     background: #f5222d;
     border-radius: 20px;
@@ -131,7 +131,7 @@ export const MenuButton = styled.div`
     text-transform: capitalize;
     cursor: pointer;
     font-weight: 600;
-
+    text-decoration: none;
     &:hover {
         background: #cf1322;
     }

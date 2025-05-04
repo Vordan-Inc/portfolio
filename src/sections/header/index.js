@@ -111,7 +111,7 @@ const Header = () => {
                             {MENULINKS.map((link, index) => (
                                 <MenuLink key={index} onClick={() => setIsOpen(false)} href={link.url}>{link.name}</MenuLink>
                             ))}
-                            <MenuLink  onClick={() => setIsOpen(false)}>{t("contact")}</MenuLink>
+                            <MenuLink  onClick={() => setIsOpen(false)} href="#contact">{t("contact")}</MenuLink>
                         </DropDownMenu>
                     )}
                     
@@ -123,7 +123,7 @@ const Header = () => {
                                     <span></span>
                                 </MenuLink>
                             ))}
-                            <MenuButton>
+                            <MenuButton href="#contact">
                                 {t("contact")}
                                 <span></span>
                             </MenuButton>
