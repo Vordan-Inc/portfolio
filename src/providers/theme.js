@@ -7,6 +7,8 @@ export const lightTheme = {
     box_shadow_hover: "0px 2px 6px rgba(0, 0, 0, 0.3)",
     border: "#bfbfbf",
     dark_bg: "#eee",
+    duration_text: "#595959",
+    block_shadow: "rgba(0, 0, 0, 0.3)"
 };
 
 export const darkTheme = {
@@ -18,4 +20,6 @@ export const darkTheme = {
     box_shadow_hover: "0px 2px 6px rgba(255, 255, 255, 0.3)",
     border: "#8c8c8c",
     dark_bg: "#000",
+    duration_text: "#bfbfbf",
+    block_shadow: "rgba(0, 0, 0, 0.7)"
 };

@@ -5,7 +5,7 @@
     "about": "About Us",
     "contact": "Contact",
     "services": "Services",
-    "projects": "Projects",
+    "projects": "Portfolio",
     "main-header": "Business Automation & Software Services",
     "main-sub-header": "We deliver tailored software and CRM solutions that streamline operations, automate workflows, and ensure seamless integration across your business systems.",
     "main-sub-header-2": "Your business deserves automated systems. Let’s create them together.",
@@ -33,5 +33,38 @@
     "support-2": "Installation and configuration of computers, operating systems, and essential software.",
     "support-3": "Hardware troubleshooting and repair for desktops, laptops, and peripherals.",
     "support-4": "Security audits to detect system vulnerabilities before real threats do.",
-    "support-5": "Clear reports with practical steps to improve your company's digital safety."
+    "support-5": "Clear reports with practical steps to improve your company's digital safety.",
+    "our-projects": "Our Portfolio",
+    "project": {
+        "note": "Note: Due to privacy and security policies, we do not publicly list our partner companies.",
+        "dictionary": {
+            "title": "Internal Dictionary & Learning Platform",
+            "date_range": "March 2025 – Present",
+            "point1": "Development of a private web-based dictionary system for a linguistic center.",
+            "point2": "Supports structured management of words, translations, definitions, and linguistic metadata.",
+            "point3": "Designed for internal use by researchers, linguists, and educators."
+        },
+        "dental": {
+            "title": "IT Support for Major Dental Clinic",
+            "date_range": "December 2024 – Present",
+            "point1": "Ongoing maintenance and support of internal CRM systems.",
+            "point2": "Hardware diagnostics and repair for computers and peripherals.",
+            "point3": "Installation and setup of operating systems and essential software."
+        },
+        "supermarket": {
+            "title": "Accounting System Integration for a Supermarket Network",
+            "date_range": "October 2024 – March 2025",
+            "point1": "Automated data transformation from 1C to AS-Accountant, streamlining financial operations.",
+            "point2": "Worked with storage imports, inventory movement, retail and wholesale sales, and material complectation.",
+            "point3": "Developed specialized logic to group and convert various document types for accurate and efficient processing."
+        },
+        "vordan": {
+            "title": "Development of Vordan Online Marketplace (Own Project)",
+            "date_range": "September 2024 – Present",
+            "point1": "Development of a private online marketplace tailored to the local market.",
+            "point2": "Aims to promote online shopping and digital commerce in the region.",
+            "point3": "Will include Artificial Intelligence (AI) to boost transaction volumes and expand seller-buyer relationships.",
+            "label": "🚀 Seeking Funding"
+        }
+    }
 }

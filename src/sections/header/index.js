@@ -63,7 +63,7 @@ const Header = () => {
     const MENULINKS = [
         { name: t("home"), url: "#home" },
         { name: t("services"), url: "#services" },
-        { name: t("projects"), url: "#projects" },
+        { name: t("projects"), url: "#portfolio" },
         { name: t("about"), url: "#about" },
 
         //{ name: t("contact"), link: "/contact" },
